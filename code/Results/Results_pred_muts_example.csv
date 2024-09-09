@@ -1,0 +1,21 @@
+serial_row,gene_symbol,ensembl_id,use_mut_predictor,do_transcription,do_splicing,do_initiation,site_chr,target_seq,site_strand,site_start_pos,increased_sensitivity,N_muts,init_search_dist,final_search_dist,titer_threshold,SAI_interesting,TITER_interesting,splicing_score,transcription_score,trans_init_score,all_int_genes_transcription_score,all_int_genes_trans_init_score,all_int_genes_splicing_score,mult_gene_affect,mut_df,comment,do_adj_srch,in_range_splicing,in_range_transcription,in_range_trans_init,max_transcription_name,max_trans_init_name,max_splicing_name,Class,GuidePro,VBC,eff,DEL_prob,DEL_del_start,DEL_del_nts,DEL_names,INS_prob,INS_ins_pos,INS_ins_mut,INS_names,significant_transcription,significant_splicing,significant_trans_init
+0,No Interest Gene,No Interest Transcript,1,1,1,1,chr19,GTGTGCCGAGGTGTGCTGCG,-,58352485,0,4,10,400,0.05,No missplicing!,No alt init!,0.00217,0.03335,0.0, A1BG: 0.03334644253182871 , A1BG: 0 , A1BG: 0.0021655515502202846 ,0,"    indels  frequency mut_type  del_len  del_start ins_nt del_nts
+1     I1+T   0.926175        I       -1         -1      A        
+2   D3  -1   0.026057        D        3   58352466    NaN        
+3  D16  -2   0.025715        D       16   58352454    NaN        
+4  D14  -2   0.022053        D       14   58352456    NaN        ",Success!,0,1,1,0,Not Analyzed,Not Analyzed,Not Analyzed,Silencing,0.468,0.598,0.610305928448505,0.015902545423620722/0.015694299471409684/0.013459148481908314,58352466/58352454/58352456,GCA/AAGTCACACCCCGCAG/GTCACACCCCGCAG,D3  -1/D16  -2/D14  -2,0.5652499350715663,58352467,A,I1+T,Significant,Significant,Not Significant
+1,A1BG,No Interest Transcript,1,1,1,1,chr19,GGAAGTCTGGAGTCTCCAGG,+,58353093,0,4,10,400,0.05,No missplicing!,No alt init!,0.00166,0.0321,0.0, A1BG: 0.03209800732383983 , A1BG: 0 , A1BG: 0.0016585767168001881 ,0,"     indels  frequency mut_type  del_len  del_start ins_nt del_nts
+1      I1+C   0.412697        I       -1         -1      C        
+2   D18  -7   0.265245        D       18   58353103    NaN        
+3  D14  -12   0.172598        D       14   58353098    NaN        
+4    D7  -5   0.149459        D        7   58353105    NaN        ",Success!,0,1,1,0,Not Analyzed,Not Analyzed,Not Analyzed,Non-Silencing,0.255,0.578,0.5034364763754479,0.13353389935500276/0.08689235023833249/0.07524331123923213,58353103/58353098/58353105,AGTCTCCAGGTGGGCCTG/TCTGGAGTCTCCAG/TCTCCAG,D18  -7/D14  -12/D7  -5,0.20776691554288046,58353109,C,I1+C,Significant,Significant,Not Significant
+2,A4GALT,No Interest Transcript,1,1,1,1,chr22,CTTGAAGCCGATGATGAACA,+,42693865,0,4,10,400,0.05,No missplicing!,/ST_INS_0/ST_INS_1/ST_DEL_0/ST_DEL_1,0.00036,0.01334,0.00868, A4GALT: 0.013344770839137023 , A4GALT: 0.00868385350526222 , A4GALT: 0.00036060373574892124 ,0,"  indels  frequency mut_type  del_len  del_start ins_nt del_nts
+1   I1+A   0.597856        I       -1         -1      A        
+2  D1  0   0.285086        D        1   42693882    NaN        
+4  D2  1   0.063697        D        2   42693883    NaN        
+5   I1+T   0.053361        I       -1         -1      T        ",Success!,0,1,1,1,Not Analyzed,Not Analyzed,Not Analyzed,Non-Silencing,0.283,0.578,0.4492484145262343,0.12807457357220867/0.02861557074791305,42693882/42693883,A/CA,D1  0/D2  1,0.26858581940100235/0.02397245080511033,42693881/42693881,A/T,I1+A/I1+T,Significant,Significant,Significant
+3,AACS,No Interest Transcript,1,1,1,1,chr12,GCAGATGGACCGCTTCCGGG,+,125065665,0,4,10,400,0.05,No missplicing!,/ST_INS_0/ST_DEL_0/ST_DEL_1/ST_DEL_2,0.00076,0.0866,0.00798, AACS: 0.08660109194870898 , AACS: 0.007979915731502701 , AACS: 0.0007587146130918718 ,0,"    indels  frequency mut_type  del_len  del_start ins_nt del_nts
+1     I1+C   0.479357        I       -1         -1      C        
+2   D1  -1   0.288019        D        1  125065681    NaN        
+3  D11  -9   0.141167        D       11  125065673    NaN        
+4  D15  -5   0.091457        D       15  125065677    NaN        ",Success!,0,1,1,1,Not Analyzed,Not Analyzed,Not Analyzed,Silencing,0.215,0.755,0.6317418852727085,0.18195374590315/0.08918098630960788/0.05777734296290251,125065681/125065673/125065677,C/ACCGCTTCCGG/CTTCCGGGCGGCTGT,D1  -1/D11  -9/D15  -5,0.30282981009704807,125065681,C,I1+C,Significant,Significant,Significant

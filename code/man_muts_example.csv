@@ -1,0 +1,5 @@
+serial,gene_symbol,ensembl_id,use_mut_predictor,do_transcription,do_splicing,do_initiation,site_chr,INS_prob,INS_ins_pos,INS_ins_mut,DEL_prob,DEL_del_start,DEL_del_nts,SUB_prob,SUB_ins_mut,SUB_del_start,SUB_del_nts
+0,AADAT,No Interest Transcript,0,1,1,1,chr4,0,,,1,170089678,GTGCGTAATTCAT,0,,,
+1,A2ML1,No Interest Transcript,0,1,1,1,chr12,1,8847690,AC,0,,,0,,,
+2,A2ML1,No Interest Transcript,0,1,1,1,chr12,0,,,1,8822631,AAATCT,0,,,
+3,A2ML1,No Interest Transcript,0,1,1,1,chr12,0,8822631,AAA,0,,,1,AAA,8822631,AAATCT

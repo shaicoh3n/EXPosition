@@ -1,0 +1,5 @@
+serial_row,gene_symbol,ensembl_id,use_mut_predictor,do_transcription,do_splicing,do_initiation,site_chr,target_seq,site_strand,site_start_pos
+0,No Interest Gene,No Interest Transcript,1,1,1,1,chr19,GTGTGCCGAGGTGTGCTGCG,-,58352485
+1,A1BG,No Interest Transcript,1,1,1,1,chr19,GGAAGTCTGGAGTCTCCAGG,+,58353093
+2,A4GALT,No Interest Transcript,1,1,1,1,chr22,CTTGAAGCCGATGATGAACA,+,42693865
+3,AACS,No Interest Transcript,1,1,1,1,chr12,GCAGATGGACCGCTTCCGGG,+,125065665

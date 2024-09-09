@@ -1,0 +1,13 @@
+serial,gene_symbol,ensembl_id,use_mut_predictor,do_transcription,do_splicing,do_initiation,site_chr,INS_prob,INS_ins_pos,INS_ins_mut,DEL_prob,DEL_del_start,DEL_del_nts,SUB_prob,SUB_ins_mut,SUB_del_start,SUB_del_nts,increased_sensitivity,N_muts,init_search_dist,final_search_dist,titer_threshold,SAI_interesting,TITER_interesting,splicing_score,transcription_score,trans_init_score,all_int_genes_transcription_score,all_int_genes_trans_init_score,all_int_genes_splicing_score,mult_gene_affect,mut_df,comment,do_adj_srch,in_range_splicing,in_range_transcription,in_range_trans_init,max_transcription_name,max_trans_init_name,max_splicing_name,Class,eff,DEL_names,significant_transcription,significant_splicing,significant_trans_init,INS_names,SUB_names
+0,AADAT,No Interest Transcript,0,1,1,1,chr4,0,,,1.0,170089678,GTGCGTAATTCAT,0,,,,0,4,10,400,0.05,No missplicing!,/ST_DEL_0,0.00074,0.14092,0.00602, AADAT: 0.14092181780894047 , AADAT: 0.0060158617395979636 , AADAT: 0.0007428031922645349 ,0,"Empty DataFrame
+Columns: []
+Index: []",Success!,0,1,1,1,Not Analyzed,Not Analyzed,Not Analyzed,Not Classified,1.0,D,Significant,Significant,Significant,,
+1,A2ML1,No Interest Transcript,0,1,1,1,chr12,1.0,8847690,AC,0.0,,,0,,,,0,4,10,400,0.05,No missplicing!,No alt init!,0.00476,6e-05,0.0, A2ML1: 6.239495922035942e-05 , A2ML1: 0 , A2ML1: 0.004756862642716825 ,0,"Empty DataFrame
+Columns: []
+Index: []",Success!,0,1,1,0,Not Analyzed,Not Analyzed,Not Analyzed,Not Classified,1.0,,Not Significant,Significant,Not Significant,I,
+2,A2ML1,No Interest Transcript,0,1,1,1,chr12,0,,,1.0,8822631,AAATCT,0,,,,0,4,10,400,0.05,No missplicing!,/ST_DEL_0,0.0,0.14812,0.00138, A2ML1: 0.14811960254050247 , A2ML1: 0.0013798404510316274 , A2ML1: 0 ,0,"Empty DataFrame
+Columns: []
+Index: []",Success!,0,1,1,1,Not Analyzed,Not Analyzed,Not Analyzed,Not Classified,1.0,D,Significant,Not Significant,Significant,,
+3,A2ML1,No Interest Transcript,0,1,1,1,chr12,0,8822631,AAA,0.0,,,1.0,AAA,8822631,AAATCT,0,4,10,400,0.05,No missplicing!,/ST_SUB_0,0.0,0.03284,0.00077, A2ML1: 0.03283981843367389 , A2ML1: 0.0007705174194735922 , A2ML1: 0 ,0,"Empty DataFrame
+Columns: []
+Index: []",Success!,0,1,1,1,Not Analyzed,Not Analyzed,Not Analyzed,Not Classified,1.0,,Significant,Not Significant,Not Significant,,S
